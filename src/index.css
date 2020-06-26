@@ -12,9 +12,17 @@ code {
     monospace;
 }
 
+.container {
+    margin: 5% auto;
+    width: 50%;
+}
+
+h2 {
+    margin: 0;
+    padding: none;
+}
+
 .grid {
-    background: black;
-    color: white;
     line-height: 0;
 }
 
@@ -22,6 +30,7 @@ code {
     width: 10px;
     height: 10px;
     display: inline-block;
+    background: black;
 }
 
 .alive {
